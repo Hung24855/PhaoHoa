@@ -23,7 +23,7 @@ const IS_HIGH_END_DEVICE = (() => {
 // 8K - can restrict this if needed
 const MAX_WIDTH = 7680;
 const MAX_HEIGHT = 4320;
-const GRAVITY = 1; // Acceleration in px/s
+const GRAVITY = 0.9; // Acceleration in px/s
 let simSpeed = 1;
 
 function getDefaultScaleFactor() {
